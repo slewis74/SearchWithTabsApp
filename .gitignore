@@ -1,0 +1,8 @@
+*.user
+*.suo
+*.g.*
+Debug
+Release
+*/TestResults/*
+NuGetOutput/
+packages
