@@ -26,10 +26,71 @@ namespace SearchWithTabsApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::PagerSlidingTabStrip.Resource.Attribute.dividerColor = global::SearchWithTabsApp.Droid.Resource.Attribute.dividerColor;
+			global::PagerSlidingTabStrip.Resource.Attribute.indicatorColor = global::SearchWithTabsApp.Droid.Resource.Attribute.indicatorColor;
+			global::PagerSlidingTabStrip.Resource.Attribute.indicatorHeight = global::SearchWithTabsApp.Droid.Resource.Attribute.indicatorHeight;
+			global::PagerSlidingTabStrip.Resource.Attribute.scrollOffset = global::SearchWithTabsApp.Droid.Resource.Attribute.scrollOffset;
+			global::PagerSlidingTabStrip.Resource.Attribute.shouldExpand = global::SearchWithTabsApp.Droid.Resource.Attribute.shouldExpand;
+			global::PagerSlidingTabStrip.Resource.Attribute.tabBackground = global::SearchWithTabsApp.Droid.Resource.Attribute.tabBackground;
+			global::PagerSlidingTabStrip.Resource.Attribute.tabDividerPadding = global::SearchWithTabsApp.Droid.Resource.Attribute.tabDividerPadding;
+			global::PagerSlidingTabStrip.Resource.Attribute.tabPaddingLeftRight = global::SearchWithTabsApp.Droid.Resource.Attribute.tabPaddingLeftRight;
+			global::PagerSlidingTabStrip.Resource.Attribute.tabTextAllCaps = global::SearchWithTabsApp.Droid.Resource.Attribute.tabTextAllCaps;
+			global::PagerSlidingTabStrip.Resource.Attribute.underlineColor = global::SearchWithTabsApp.Droid.Resource.Attribute.underlineColor;
+			global::PagerSlidingTabStrip.Resource.Attribute.underlineHeight = global::SearchWithTabsApp.Droid.Resource.Attribute.underlineHeight;
+			global::PagerSlidingTabStrip.Resource.Color.background_tab_pressed = global::SearchWithTabsApp.Droid.Resource.Color.background_tab_pressed;
+			global::PagerSlidingTabStrip.Resource.Drawable.pagerslidingtabstrip_background_tab = global::SearchWithTabsApp.Droid.Resource.Drawable.pagerslidingtabstrip_background_tab;
+			global::PagerSlidingTabStrip.Resource.Layout.pagerslidingtabstrip_texttab = global::SearchWithTabsApp.Droid.Resource.Layout.pagerslidingtabstrip_texttab;
+			global::PagerSlidingTabStrip.Resource.String.ApplicationName = global::SearchWithTabsApp.Droid.Resource.String.ApplicationName;
+			global::PagerSlidingTabStrip.Resource.String.Hello = global::SearchWithTabsApp.Droid.Resource.String.Hello;
+			global::PagerSlidingTabStrip.Resource.Styleable.PagerSlidingTabStrip = global::SearchWithTabsApp.Droid.Resource.Styleable.PagerSlidingTabStrip;
+			global::PagerSlidingTabStrip.Resource.Styleable.PagerSlidingTabStrip_dividerColor = global::SearchWithTabsApp.Droid.Resource.Styleable.PagerSlidingTabStrip_dividerColor;
+			global::PagerSlidingTabStrip.Resource.Styleable.PagerSlidingTabStrip_indicatorColor = global::SearchWithTabsApp.Droid.Resource.Styleable.PagerSlidingTabStrip_indicatorColor;
+			global::PagerSlidingTabStrip.Resource.Styleable.PagerSlidingTabStrip_indicatorHeight = global::SearchWithTabsApp.Droid.Resource.Styleable.PagerSlidingTabStrip_indicatorHeight;
+			global::PagerSlidingTabStrip.Resource.Styleable.PagerSlidingTabStrip_scrollOffset = global::SearchWithTabsApp.Droid.Resource.Styleable.PagerSlidingTabStrip_scrollOffset;
+			global::PagerSlidingTabStrip.Resource.Styleable.PagerSlidingTabStrip_shouldExpand = global::SearchWithTabsApp.Droid.Resource.Styleable.PagerSlidingTabStrip_shouldExpand;
+			global::PagerSlidingTabStrip.Resource.Styleable.PagerSlidingTabStrip_tabBackground = global::SearchWithTabsApp.Droid.Resource.Styleable.PagerSlidingTabStrip_tabBackground;
+			global::PagerSlidingTabStrip.Resource.Styleable.PagerSlidingTabStrip_tabDividerPadding = global::SearchWithTabsApp.Droid.Resource.Styleable.PagerSlidingTabStrip_tabDividerPadding;
+			global::PagerSlidingTabStrip.Resource.Styleable.PagerSlidingTabStrip_tabPaddingLeftRight = global::SearchWithTabsApp.Droid.Resource.Styleable.PagerSlidingTabStrip_tabPaddingLeftRight;
+			global::PagerSlidingTabStrip.Resource.Styleable.PagerSlidingTabStrip_tabTextAllCaps = global::SearchWithTabsApp.Droid.Resource.Styleable.PagerSlidingTabStrip_tabTextAllCaps;
+			global::PagerSlidingTabStrip.Resource.Styleable.PagerSlidingTabStrip_underlineColor = global::SearchWithTabsApp.Droid.Resource.Styleable.PagerSlidingTabStrip_underlineColor;
+			global::PagerSlidingTabStrip.Resource.Styleable.PagerSlidingTabStrip_underlineHeight = global::SearchWithTabsApp.Droid.Resource.Styleable.PagerSlidingTabStrip_underlineHeight;
 		}
 		
 		public partial class Attribute
 		{
+			
+			// aapt resource value: 0x7f010002
+			public const int dividerColor = 2130771970;
+			
+			// aapt resource value: 0x7f010000
+			public const int indicatorColor = 2130771968;
+			
+			// aapt resource value: 0x7f010003
+			public const int indicatorHeight = 2130771971;
+			
+			// aapt resource value: 0x7f010007
+			public const int scrollOffset = 2130771975;
+			
+			// aapt resource value: 0x7f010009
+			public const int shouldExpand = 2130771977;
+			
+			// aapt resource value: 0x7f010008
+			public const int tabBackground = 2130771976;
+			
+			// aapt resource value: 0x7f010005
+			public const int tabDividerPadding = 2130771973;
+			
+			// aapt resource value: 0x7f010006
+			public const int tabPaddingLeftRight = 2130771974;
+			
+			// aapt resource value: 0x7f01000a
+			public const int tabTextAllCaps = 2130771978;
+			
+			// aapt resource value: 0x7f010001
+			public const int underlineColor = 2130771969;
+			
+			// aapt resource value: 0x7f010004
+			public const int underlineHeight = 2130771972;
 			
 			static Attribute()
 			{
@@ -41,11 +102,30 @@ namespace SearchWithTabsApp.Droid
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int background_tab_pressed = 2130968576;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
 			public const int icon = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int pagerslidingtabstrip_background_tab = 2130837505;
 			
 			static Drawable()
 			{
@@ -53,6 +133,100 @@ namespace SearchWithTabsApp.Droid
 			}
 			
 			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Layout
+		{
+			
+			// aapt resource value: 0x7f030000
+			public const int pagerslidingtabstrip_texttab = 2130903040;
+			
+			static Layout()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Layout()
+			{
+			}
+		}
+		
+		public partial class String
+		{
+			
+			// aapt resource value: 0x7f050001
+			public const int ApplicationName = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int Hello = 2131034112;
+			
+			static String()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private String()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] PagerSlidingTabStrip = new int[] {
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971,
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978};
+			
+			// aapt resource value: 2
+			public const int PagerSlidingTabStrip_dividerColor = 2;
+			
+			// aapt resource value: 0
+			public const int PagerSlidingTabStrip_indicatorColor = 0;
+			
+			// aapt resource value: 3
+			public const int PagerSlidingTabStrip_indicatorHeight = 3;
+			
+			// aapt resource value: 7
+			public const int PagerSlidingTabStrip_scrollOffset = 7;
+			
+			// aapt resource value: 9
+			public const int PagerSlidingTabStrip_shouldExpand = 9;
+			
+			// aapt resource value: 8
+			public const int PagerSlidingTabStrip_tabBackground = 8;
+			
+			// aapt resource value: 5
+			public const int PagerSlidingTabStrip_tabDividerPadding = 5;
+			
+			// aapt resource value: 6
+			public const int PagerSlidingTabStrip_tabPaddingLeftRight = 6;
+			
+			// aapt resource value: 10
+			public const int PagerSlidingTabStrip_tabTextAllCaps = 10;
+			
+			// aapt resource value: 1
+			public const int PagerSlidingTabStrip_underlineColor = 1;
+			
+			// aapt resource value: 4
+			public const int PagerSlidingTabStrip_underlineHeight = 4;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
 			{
 			}
 		}
