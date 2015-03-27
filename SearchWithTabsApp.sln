@@ -60,6 +60,7 @@ Global
 		{40F141AE-6A8B-4D12-8032-03D05E7EAA03}.Debug|ARM.ActiveCfg = Debug|Any CPU
 		{40F141AE-6A8B-4D12-8032-03D05E7EAA03}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{40F141AE-6A8B-4D12-8032-03D05E7EAA03}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{40F141AE-6A8B-4D12-8032-03D05E7EAA03}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{40F141AE-6A8B-4D12-8032-03D05E7EAA03}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
 		{40F141AE-6A8B-4D12-8032-03D05E7EAA03}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{40F141AE-6A8B-4D12-8032-03D05E7EAA03}.Debug|x86.ActiveCfg = Debug|Any CPU

@@ -1,11 +1,17 @@
-﻿using Xamarin.Forms;
+﻿using System.Collections;
+using System.Collections.Generic;
+using Xamarin.Forms;
 
 namespace SearchWithTabsApp.Pages
 {
-    public class HomePage : ContentPage
+    public class HomePage : ContentPage //TabbedPage
     {
         public HomePage()
         {
+            Title = "Home Page";
+            NavigationPage.SetHasNavigationBar(this, true);
+            NavigationPage.SetHasBackButton(this, false);
+
             var searchBar = new SearchBar
             {
                 Placeholder = "Search"
@@ -28,7 +34,7 @@ namespace SearchWithTabsApp.Pages
                 Children = {
                     searchBar,
                     tabbedView
-				}
+                }
             };
             grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
             grid.RowDefinitions.Add(new RowDefinition());
@@ -36,11 +42,21 @@ namespace SearchWithTabsApp.Pages
             Grid.SetRow(tabbedView, 1);
 
             Content = grid;
+
+            //Children.Add(new ContentPage { Title = "All", Content = label1 });
+            //Children.Add(new ContentPage { Title = "Category 1" });
+            //Children.Add(new ContentPage { Title = "Category 2" });
         }
     }
 
-    public class TabbedView : Grid
+    public class TabbedView : Grid //ContentView
     {
+        public TabbedView()
+        {
+            //Children = new List<TabView>();
+        }
+
+        //public IList<TabView> Children { get; private set; }
     }
 
     public class TabView : ContentView
