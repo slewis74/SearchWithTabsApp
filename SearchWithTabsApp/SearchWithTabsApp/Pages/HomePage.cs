@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace SearchWithTabsApp.Pages
 {
-    public class HomePage : ContentPage //TabbedPage
+    public class HomePage : ContentPage
     {
         public HomePage()
         {
@@ -42,21 +40,11 @@ namespace SearchWithTabsApp.Pages
             Grid.SetRow(tabbedView, 1);
 
             Content = grid;
-
-            //Children.Add(new ContentPage { Title = "All", Content = label1 });
-            //Children.Add(new ContentPage { Title = "Category 1" });
-            //Children.Add(new ContentPage { Title = "Category 2" });
         }
     }
 
-    public class TabbedView : Grid //ContentView
+    public class TabbedView : Grid
     {
-        public TabbedView()
-        {
-            //Children = new List<TabView>();
-        }
-
-        //public IList<TabView> Children { get; private set; }
     }
 
     public class TabView : ContentView
